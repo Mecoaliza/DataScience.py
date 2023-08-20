@@ -21,10 +21,11 @@ Alguns dos comandos e funcionalidades do Git usados no dia a dia. Entretanto o G
  git init |  Inicializa um novo repositório Git na pasta atual.
  git add .| Adiciona todas as mudanças na área de preparação (staging area).
 git status| Mostra o status das mudanças no seu repositório.
-git commit -m *"Nome do comentário"* | Comentar a última alteração
+git commit -m *"Nome do comentário"* | Comentar a última alteração.
 git log   | Exibe o histórico de commits feitos.
 git restore *nomedoarquivo* | Desfaz as modificações de um arquivo para o estado do último commit.
 git commit --amend -m "*Novo comentário*" | Permite corrigir o último commit.
+git reset --soft *hashdocommit* | Desfazer último commit.
 
 
 
@@ -45,6 +46,7 @@ git commit --amend -m "*Novo comentário*" | Permite corrigir o último commit.
 | Comandos | Descrição |
 |-------|---------|
 | git checkout -b *nomedabranch* | Cria e troca para uma nova branch.
+| git checkout main | Voltar para a branch main.
 | git branch -v | Lista os últimos commits de cada branch.
 |git merge *nomedabranch*| Mescla uma branch na branch atual.
 |git branch -D *nomedabranch*| Deleta uma branch.
