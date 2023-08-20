@@ -1,7 +1,10 @@
 
 Bootcamp Ciência de Dados com Python by Santander
 
-# Comandos Git e GitHub
+
+![image](https://github.com/Mecoaliza/DataScience.py/assets/113151407/9873e983-75c6-474f-b9a5-0ba3faf7b1b8)  
+
+# Comandos Git 
 
 Alguns dos comandos e funcionalidades do Git usados no dia a dia. Entretanto o Git oferece muitas outras opções para gerenciar eficientemente seu código-fonte e colaborar com outros desenvolvedores.
 
