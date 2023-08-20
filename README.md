@@ -39,7 +39,7 @@ git reset --soft *hashdocommit* | Desfazer último commit.
 |git clone URL --branch *nomedabranch* --single-branch| Clona um repositório remoto e uma branch específica.
 |git fetch origin main | Baixa as alterações do repositório remoto sem mesclá-las.
 |git merge origin main | Mescla as alterações do repositório remoto na branch local.
-||
+
 
 ### Gerenciamento de Branches
 
@@ -51,7 +51,7 @@ git reset --soft *hashdocommit* | Desfazer último commit.
 |git merge *nomedabranch*| Mescla uma branch na branch atual.
 |git branch -D *nomedabranch*| Deleta uma branch.
 |git stash | Guarda as mudanças em um local temporário para trocar de branch.
-||
+
 
 ### Gitignore e Histórico
 
@@ -61,4 +61,4 @@ git reset --soft *hashdocommit* | Desfazer último commit.
 | echo *exemplo-nome.md* > .gitignore | Adiciona o arquivo ao .gitignore.
 |echo > .gitignore| Remove o arquivo do .gitignore.
 |git reflog | Exibe o histórico de comandos Git executados.
-||
+
